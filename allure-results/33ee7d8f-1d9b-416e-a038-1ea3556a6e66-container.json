@@ -1,0 +1,1 @@
+{"uuid":"33ee7d8f-1d9b-416e-a038-1ea3556a6e66","name":"Go-Manager","children":["83d2d84e-8541-40fe-9202-e385c7e60964"],"befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1693088449206,"stop":1693088456717}],"afters":[],"start":1693088449180,"stop":1693088466675}

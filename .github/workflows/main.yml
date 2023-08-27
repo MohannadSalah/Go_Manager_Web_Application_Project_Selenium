@@ -1,0 +1,17 @@
+name : Run Selenium Test
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@latest
+      - uses: actions/setup-java@latest
+        with:
+          java-version: "19"
+          cache: maven
+      - uses: browser-actions/setup-edge@latest
+      - run: mvn clean test
